@@ -16,8 +16,7 @@
             </div>
         </div>
         <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-item active"
-                 style="background-image: url('{{asset('assets/img/hero-carousel/hero-carousel-1.jpg')}}')"></div>
+            <div class="carousel-item active" style="background-image: url('{{asset('assets/img/hero-carousel/hero-carousel-1.jpg')}}')"></div>
         </div>
     </section>
     <main id="main">
@@ -31,37 +30,14 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="card-item">
                             <div class="row">
-                                <div class="col-xl-5">
-                                    <iframe height="100%"
-                                            src="https://www.youtube.com/embed/Dyo2l8nvbfk?si=1LiSi90LdujKHErd"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Innovatsion Texnopark ilmiy izlanish va amaliy
-                                            natijda.</h4>
-                                    </div>
-                                </div>
+                                <video src="Camera1"></video>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="card-item">
                             <div class="row">
-                                <div class="col-xl-5">
-                                    <iframe height="100%"
-                                            src="https://www.youtube.com/embed/pZDRfDFx1YY?si=lGavtcHGxYXc-BBJ"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                </div>
-                                <div class="col-xl-7 d-flex align-items-center">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Xorazmda tashkil etilgan Texnopark imkoniyatlari.</h4>
-                                    </div>
-                                </div>
+                                <video src="Camera2"></video>
                             </div>
                         </div>
                     </div>
