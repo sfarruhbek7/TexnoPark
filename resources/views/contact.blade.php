@@ -43,27 +43,24 @@
                             frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="{{route('Message.store')}}" method="post" role="form" class="php-email-form">
+                            @csrf
                             <div class="row gy-4">
                                 <div class="col-lg-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz"
-                                           required>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" required>
                                 </div>
                                 <div class="col-lg-6 form-group">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                           placeholder="Elektron manzilingiz" required>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Elektron manzilingiz" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Mavzu"
-                                       required>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Mavzu" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Xabar"
-                                          required></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Xabar" required></textarea>
                             </div>
                             <div class="my-3">
-                                <div class="loading">Loading</div>
+                                <div class="loading">Yuborilmoqda</div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">Sizning xabaringiz muvaffaqiyatli yuborildi. Rahmat!</div>
                             </div>
