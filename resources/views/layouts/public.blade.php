@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Bosh sahifa</title>
+    <title>
+        @if(Route::Is('index')) Bosh sahifa @endif
+        @if(Route::Is('about')) Biz haqimizda @endif
+        @if(Route::Is('project')) Loyiha @endif
+        @if(Route::Is('contact')) Aloqa @endif
+    </title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
@@ -25,7 +30,7 @@
 <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="{{route('index')}}" class="logo d-flex align-items-center">
-            <h1>Texno Park<span>.</span></h1>
+            <h1>Texnopark<span>.</span></h1>
         </a>
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
@@ -46,7 +51,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-6">
                     <div class="footer-info">
-                        <h3>Texno Park</h3>
+                        <h3>Texnopark</h3>
                         <p>
                             Yoshlar texnoparki – yoshlarning intellektual, ilmiy, ijodiy salohiyatini oshirish, tahliliy fikrlash, ilmiy-tadqiqot va innovasion faoliyatga keng jalb etish, «startap» loyihalarini rivojlantirish va ularni amalga oshirish uchun yagona maydon tashkil etish maqsadida barpo etilmoqda
                         </p>
@@ -65,7 +70,7 @@
                     <div class="footer-info">
                         <h3>Aloqa</h3>
                         <p>
-                            <strong>Manzil: </strong>Xorazm viloyati, Urganch tumani, Uchko'pir mahallasi, "al-Xorazmiy" majmuasi<br>
+                            <strong>Manzil: </strong>Xorazm viloyati, Urganch tumani, Uchko'prik mahallasi, "Al-Xorazmiy" majmuasi<br>
                             <strong>Phone:</strong> +998977900494<br>
                         </p>
                     </div>

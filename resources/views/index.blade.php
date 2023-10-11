@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h2 data-aos="fade-down"><span>Urgench Yoshlar Texno Parki</span></h2>
+                        <h2 data-aos="fade-down"><span>Xorazm Yoshlar Texnoparki</span></h2>
                         <p data-aos="fade-up">Yoshlar texnoparki – yoshlarning intellektual, ilmiy, ijodiy salohiyatini
                             oshirish, tahliliy fikrlash, ilmiy-tadqiqot va innovasion faoliyatga keng jalb etish,
                             «startap» loyihalarini rivojlantirish va ularni amalga oshirish uchun yagona maydon tashkil

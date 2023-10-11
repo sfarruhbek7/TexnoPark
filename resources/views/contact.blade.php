@@ -18,7 +18,7 @@
                         <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                             <i class="bi bi-map"></i>
                             <h3>Manzil</h3>
-                            <p>Xorazm viloyati, Urganch tumani, Uchko'pir mahallasi, "al-Xorazmiy" majmuasi</p>
+                            <p>Xorazm viloyati, Urganch tumani, Uchko'prik mahallasi, "Al-Xorazmiy" majmuasi</p>
                         </div>
                     </div>
                     {{--          <div class="col-lg-3 col-md-6">--}}

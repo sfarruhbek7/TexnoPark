@@ -39,7 +39,7 @@
             <div class="container" data-aos="fade-up">
                 <div class="row justify-content-around gy-4">
                     <p>
-                        Yoshlar texnoparki Buxoro viloyatida Yoshlar akademiyasining faoliyatini rivojlantirish,
+                        Yoshlar texnoparki Xorazm viloyatida Yoshlar akademiyasining faoliyatini rivojlantirish,
                         mahalliy ijro etuvchi hokimiyat organlari, ta’lim muassasalari, ilmiy tashkilotlar va
                         Texnologiyalar va innovatsiyalarni qo‘llab-quvvatlash markazlari bilan hamkorlikda yoshlarni
                         intellektual, ilmiy, ijodiy salohiyatini oshirish;
@@ -47,7 +47,7 @@
                     <br>
                     <p>
                         Yoshlarning «startap» loyihalarini rivojlantirish va ularni amalga oshirish uchun yagona maydon
-                        tashkil etish orqali Buxoro viloyatining innovasion salohiyatini oshirish;
+                        tashkil etish orqali Xorazm viloyatining innovasion salohiyatini oshirish;
                     </p>
                     <br>
                     <p>
